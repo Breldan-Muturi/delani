@@ -17,10 +17,17 @@ body{
     position: center;
     margin-top: -40%;
 }
-.text-wrapper img{
-    width: 5%;
+.logo {
+    width: 10%;
     height: auto;
-    align: center;
+    display: block;
+    margin-left: 45%;
+}
+.mouse{
+    width: 3%;
+    height: auto;
+    display: block;
+    margin-left: 48.5% 
 }
 .text-wrapper h1{
     text-align: center;
