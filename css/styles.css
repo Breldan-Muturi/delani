@@ -7,6 +7,8 @@
 .text-wrapper{
     position: center;
     margin-top: -40%;
+    text-align: center;
+    color: whitesmoke;
 }
 .logo {
     width: 10%;
@@ -23,16 +25,22 @@
     margin-top: 10%;
     margin-bottom: 5%;
 }
-.text-wrapper h1{
-    text-align: center;
-    color: whitesmoke;
-}
-.text-wrapper p{
-    text-align: center;
-    color: whitesmoke;
-}
 .about{
     color: black;
     text-align: center;
     font-family: 'Roboto Slab', serif;
+    margin-bottom: 5%;
+}
+.content2-wrapper{
+    width: 100%;
+}
+.content2-wrapper img{
+    width:100%;
+}
+.service{
+    position: center;
+    margin-top: -17%;
+    color: whitesmoke;
+    text-align: center;
+    font: 1em sans-serif;
 }
