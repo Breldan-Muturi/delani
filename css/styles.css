@@ -1,0 +1,32 @@
+*{
+
+}
+body{
+    width:100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #c4c4c4;
+}
+.content-wrapper{
+    width: 100%;
+}
+.content-wrapper img{
+    width:100%;
+}
+.text-wrapper{
+    position: center;
+    margin-top: -40%;
+}
+.text-wrapper img{
+    width: 5%;
+    height: auto;
+    align: center;
+}
+.text-wrapper h1{
+    text-align: center;
+    color: whitesmoke;
+}
+.text-wrapper p{
+    text-align: center;
+    color: whitesmoke;
+}
