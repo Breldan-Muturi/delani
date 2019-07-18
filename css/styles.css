@@ -10,14 +10,14 @@
     text-align: center;
     color: whitesmoke;
 }
-.logo {
+#logo {
     width: 10%;
     height: auto;
     display: block;
     margin-left: 45%;
     margin-bottom: 3%;
 }
-.mouse{
+#mouse{
     width: 3%;
     height: auto;
     display: block;
@@ -78,4 +78,7 @@ h1{
 }
 #portfolios1-4{
     margin-bottom: 30px;
+}
+#portfolios5-8{
+    margin-bottom: 60px;
 }
