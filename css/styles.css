@@ -61,7 +61,7 @@
     box-align: center;
 }
 .row{
-    margin-right: 100px;
+    margin-right: 200px;
 }
 h2{
     font-size: 15px;
@@ -103,32 +103,72 @@ h3{
     margin-left: 100px;
     margin-bottom: 60px;
 }
-#work4 :hover{
+#work4:hover{
     background-color: white;
+    background-image: none;
+    opacity: 0.3;
+    transition-duration: 500ms;
+}
+#work3:hover{
+    background-color: white;
+    background-image: none;
+    opacity: 0.3;
+    transition-duration: 500ms;
+}
+#work2:hover{
+    background-color: white;
+    background-image: none;
+    opacity: 0.3;
+    transition-duration: 500ms;
+}
+#work1:hover{
+    background-color: white;
+    background-image: none;
+    opacity: 0.3;
+    transition-duration: 500ms;
+}
+#work5:hover{
+    background-color: white;
+    background-image: none;
+    opacity: 0.3;
+    transition-duration: 500ms;
+}
+#work6:hover{
+    background-color: white;
+    background-image: none;
+    opacity: 0.3;
+    transition-duration: 500ms;
+}
+#work7:hover{
+    background-color: white;
+    background-image: none;
+    opacity: 0.3;
+    transition-duration: 500ms;
+}
+#work8:hover{
+    background-color: white;
+    background-image: none;
+    opacity: 0.3;
+    transition-duration: 500ms;
 }
 #bg-contacts{
     margin-bottom: -33%;
 }
 .form-control{
     border-radius: 0%;
-    max-width: 75%;
+    max-width: 50%;
     max-height: 30px;
-    color: whitesmoke;
     border-color: white;
-}
-::placeholder{
-    color: whitesmoke;
 }
 #name{
     margin-left: 100px;
-    color: white;
 }
 .contact-us{
     color: whitesmoke;
 }
 #message{
     margin-top: 30px;
-    margin-left: 120px;
+    margin-left: 100px;
     columns: 20;
     margin-bottom: 50px;
     border-color: white;
@@ -153,6 +193,43 @@ h3{
     color: whitesmoke;
     text-align: left;
 }
+::placeholder{
+    color: white;
+}
 .form-control{
     background-color: transparent;
 }
+.work4{
+    display: none;
+    margin-top: -50%;
+}
+.work3{
+    display: none;
+    margin-top: -50%;
+}
+.work2{
+    display: none;
+    margin-top: -50%;
+}
+.work1{
+    display: none;
+    margin-top: -50%;
+}
+.work5{
+    display: none;
+    margin-top: -50%;
+}
+.work6{
+    display: none;
+    margin-top: -50%;
+}
+.work7{
+    display: none;
+    margin-top: -50%;
+}
+.work8{
+    display: none;
+    margin-top: -50%;
+}
+
+
