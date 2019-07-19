@@ -23,7 +23,7 @@
     display: block;
     margin-left: 48.5%;
     margin-top: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 6%;
 }
 .about{
     color: black;
@@ -60,24 +60,39 @@
     margin-left: 30px;
     box-align: center;
 }
+.row{
+    margin-right: 100px;
+}
 h2{
     font-size: 15px;
 }
 #product_icon{
     margin-left: 60px;
 }
+.product-description{
+    display: none;
+}
 #dev_icon{
     margin-left: 30px;
+}
+.dev-description{
+    display: none;
 }
 #design_icon{
     margin-left: 5px;
 }
+.design-description{
+    display: none;
+}
 h1{
-    text-align: center;
-    font-size: 
+    text-align: center; 
 }
 p{
     font-size: 12px;
+    text-align: center;
+}
+h3{
+    font-size: 16px;
 }
 #portfolios1-4{
     margin-bottom: 30px;
