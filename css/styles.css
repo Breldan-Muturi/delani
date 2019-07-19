@@ -18,7 +18,7 @@
     margin-bottom: 3%;
 }
 #mouse{
-    width: 3%;
+    width: 2%;
     height: auto;
     display: block;
     margin-left: 48.5%;
@@ -81,4 +81,49 @@ h1{
 }
 #portfolios5-8{
     margin-bottom: 60px;
+}
+#bg-contacts{
+    margin-bottom: -33%;
+}
+.form-control{
+    border-radius: 0%;
+    max-width: 75%;
+    max-height: 30px;
+    color: whitesmoke;
+    border-color: white;
+}
+::placeholder{
+    color: whitesmoke;
+}
+#name{
+    margin-left: 100px;
+}
+.contact-us{
+    color: whitesmoke;
+}
+#message{
+    margin-top: 30px;
+    margin-left: 120px;
+    columns: 20;
+    margin-bottom: 50px;
+    border-color: white;
+
+}
+#social{
+    margin-left: 280px;
+}
+#social img{
+    max-width: 10%;
+    margin-left: 1px;
+    margin-bottom: 6%;
+    margin-top: 10%;
+}
+.footer{
+    text-align: center;
+}
+#delani{
+    margin-bottom: -0.3%;
+}
+::placeholder{
+    color: whitesmoke;
 }
