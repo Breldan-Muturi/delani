@@ -93,12 +93,18 @@ p{
 }
 h3{
     font-size: 16px;
+    text-align: center;
 }
 #portfolios1-4{
+    margin-left: 100px;
     margin-bottom: 30px;
 }
 #portfolios5-8{
+    margin-left: 100px;
     margin-bottom: 60px;
+}
+#work4 :hover{
+    background-color: white;
 }
 #bg-contacts{
     margin-bottom: -33%;
