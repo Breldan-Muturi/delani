@@ -97,6 +97,7 @@ h1{
 }
 #name{
     margin-left: 100px;
+    color: white;
 }
 .contact-us{
     color: whitesmoke;
@@ -124,6 +125,10 @@ h1{
 #delani{
     margin-bottom: -0.3%;
 }
-::placeholder{
+.form-control::placeholder{
     color: whitesmoke;
+    text-align: left;
+}
+.form-control{
+    background-color: transparent;
 }
