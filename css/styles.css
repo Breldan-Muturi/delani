@@ -103,52 +103,9 @@ h3{
     margin-left: 100px;
     margin-bottom: 60px;
 }
-#work4:hover{
-    background-color: white;
+#work4:hover,#work3:hover,#work2:hover,#work1:hover,#work5:hover,#work6:hover,#work7:hover,#work8:hover{
     background-image: none;
-    opacity: 0.3;
-    transition-duration: 500ms;
-}
-#work3:hover{
-    background-color: white;
-    background-image: none;
-    opacity: 0.3;
-    transition-duration: 500ms;
-}
-#work2:hover{
-    background-color: white;
-    background-image: none;
-    opacity: 0.3;
-    transition-duration: 500ms;
-}
-#work1:hover{
-    background-color: white;
-    background-image: none;
-    opacity: 0.3;
-    transition-duration: 500ms;
-}
-#work5:hover{
-    background-color: white;
-    background-image: none;
-    opacity: 0.3;
-    transition-duration: 500ms;
-}
-#work6:hover{
-    background-color: white;
-    background-image: none;
-    opacity: 0.3;
-    transition-duration: 500ms;
-}
-#work7:hover{
-    background-color: white;
-    background-image: none;
-    opacity: 0.3;
-    transition-duration: 500ms;
-}
-#work8:hover{
-    background-color: white;
-    background-image: none;
-    opacity: 0.3;
+    opacity: 0.5;
     transition-duration: 500ms;
 }
 #bg-contacts{
@@ -199,37 +156,24 @@ h3{
 .form-control{
     background-color: transparent;
 }
-.work4{
+.work4,.work3,.work2,.work1,.work5,.work6,.work7,.work8{
     display: none;
     margin-top: -50%;
+    padding: 1px 1px 1px 1px;
+    background-color: white;
+    background-image: none;
+    opacity: 1;
+    transition-duration: 500ms;
 }
-.work3{
-    display: none;
-    margin-top: -50%;
-}
-.work2{
-    display: none;
-    margin-top: -50%;
-}
-.work1{
-    display: none;
-    margin-top: -50%;
-}
-.work5{
-    display: none;
-    margin-top: -50%;
-}
-.work6{
-    display: none;
-    margin-top: -50%;
-}
-.work7{
-    display: none;
-    margin-top: -50%;
-}
-.work8{
-    display: none;
-    margin-top: -50%;
+.brief:hover{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 
