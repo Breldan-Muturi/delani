@@ -120,10 +120,11 @@ h3{
     max-width: 75%;
 }
 #email{
-    margin-left: 50px;
+    margin-left: 10px;
 }
 #name{
-    margin-left: 150px;
+    margin-left: 100px;
+    margin-right: 10px;
 }
 
 .contact-us{
