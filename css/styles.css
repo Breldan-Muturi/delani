@@ -1,4 +1,6 @@
-.content-wrapper{
+body{
+    margin-left: 0%;
+}.content-wrapper{
     width: 100%;
 }
 .content-wrapper img{
@@ -122,23 +124,24 @@ h3{
     max-width: 75%;
 }
 #email{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 #name{
-    margin-left: 220px;
+    margin-left: 150px;
 }
 
 .contact-us{
     color: whitesmoke;
 }
 #message{
-    margin-top: 50px;
-    margin-left: -1000px;
-    columns: 20;
-    margin-bottom: 120px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 30px;
     border-color: white;
     margin-right: 200px;
-
+}
+.btn .btn-light .mt-4{
+   margin-right: 80%;
 }
 #social{
     margin-left: 280px;

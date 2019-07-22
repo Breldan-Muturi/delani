@@ -1,14 +1,3 @@
-var name, email
-
-  function myInput(){
-    name=document.getElementById("name").any;
-    email=document.getElementById("email").any;
-  }
-  function feedback(){
-    myInput();
-    alert(+ name +" we have received your message. Thank you for reaching out to us.");
-  }
-
 $(document).ready(function() {
     $(".design-p, #design_icon").click(function() {
       $(".design-description").toggle('slow');
@@ -46,7 +35,15 @@ $(document).ready(function() {
     $("#work8").hover(function(){
       $(".work8").toggle('slow');
     });
+    jQuery('form#contact-form').submit(function (event) {
+      event.preventDefault();
+      var userName = document.getElementById('name').value;
+      alert(userName + ' we have received your message. Thank you for reaching out to us.');
+      jQuery('#contact-form')[0].reset();
+//        document.getElementById('contact-form').reset();
+  })
 });
+
 
 
   

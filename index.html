@@ -156,22 +156,21 @@
         <div class="contact-us" id="contact">
             <img src="assets/backgrounds/c_image.jpg" id="bg-contacts" alt="another background image">
             <h1>CONTACT US</h1>
-            <form>
-                <div class="form-row">
-                    <div class="col">
-                        <input type="text" class="form-control" id="name" placeholder="Name...">
-                    </div>
-                    <div class="col">
-                        <input type="email" class="form-control" id="email" placeholder="Email...">
-                    </div>
-                    <div class="form-group">
-                        <textarea style="background-color:transparent" type="text" id="message" rows="10" cols="110"
-                            placeholder="Your Message here..."></textarea>
-                    </div>
-                    <button type="button" name="button" class="btn btn-primary"
-                        onclick="myInput(); feedback();">submit</button>
+            <form id="contact-form">
+            <div class="row mt-3 user-input">
+                <div class="col">
+                    <input type="text" class="form-control" id="name" placeholder="Name...">
                 </div>
-            </form>
+                <div class="col">
+                    <input type="text" class="form-control" id="email" placeholder="Email...">
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea style="background-color:transparent" type="text" id="message" rows="10" cols="110"
+                    placeholder="Your Message here..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-light mt-4">Submit</button>    
+        </form>
         </div>
         <div class="container">
             <div class="row">
