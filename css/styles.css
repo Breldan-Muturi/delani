@@ -28,6 +28,18 @@
     margin-left: 48.5%;
     margin-top: 10%;
     margin-bottom: 6%;
+    animation: bounce 3s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-55px);
+    }
+    60% {
+        transform: translateY(-45px);
+    }
 }
 #about{
     color: black;
@@ -97,11 +109,6 @@ h3{
 #portfolios5-8{
         margin-bottom: 60px;
 }
-#work4:hover,#work3:hover,#work2:hover,#work1:hover,#work5:hover,#work6:hover,#work7:hover,#work8:hover{
-    background-image: none;
-    opacity: 0.5;
-    transition-duration: 500ms;
-}
 #bg-contacts{
     margin-bottom: -33%;
 }
@@ -152,12 +159,24 @@ h3{
 }
 .work4,.work3,.work2,.work1,.work5,.work6,.work7,.work8{
     display: none;
-    margin-top: -50%;
-    padding: 1px 1px 1px 1px;
-    background-color: white;
-    background-image: none;
-    opacity: 1;
-    transition-duration: 500ms;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 90%;
+}
+.brief{
+ width: 80%;
+ height: 80%;
+ border: 2px solid #fff;
+ margin-left: 5%;
+ margin-right: 5%;
+ margin-top: 10%;
+}
+.brief p{
+    font-size: 20px;
 }
 
 

@@ -19,7 +19,7 @@ $(document).ready(function() {
     });
     $("#work2").hover(function(){
       $(".work2").toggle('slow');
-    });
+  });
     $("#work1").hover(function(){
       $(".work1").toggle('slow');
     });
