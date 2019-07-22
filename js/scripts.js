@@ -35,7 +35,7 @@ $(document).ready(function() {
     $("#work8").hover(function(){
       $(".work8").toggle('slow');
     });
-    jQuery('form#contact-form').submit(function (event) {
+    jQuery('form#form1').submit(function (event) {
       event.preventDefault();
       var userName = document.getElementById('name').value;
       alert(userName + ' we have received your message. Thank you for reaching out to us.');
