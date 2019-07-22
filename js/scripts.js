@@ -1,15 +1,15 @@
 $(document).ready(function() {
-    $(".design-p, #design_icon").click(function() {
-      $(".design-description").toggle('slow');
-      $(".design").toggle('slow');
+    $("#design").click(function() {
+      $("#design-icon").toggle('slow');
+      $("#design-p").toggle('slow');
     });
-    $(".dev-p, #dev_icon").click(function() {
-        $(".dev-description").toggle('slow');
-        $(".dev").toggle('slow');
+    $("#dev").click(function() {
+        $("#dev-icon").toggle('slow');
+        $("#dev-p").toggle('slow');
     });
-    $(".product-p,#product_icon").click(function() {
-      $(".product-description").toggle('slow');
-      $(".product").toggle('slow');
+    $("#product").click(function() {
+      $("#product-icon").toggle('slow');
+      $("#product-p").toggle('slow');
     });
     $("#work4").hover(function(){
         $(".work4").toggle('slow');
