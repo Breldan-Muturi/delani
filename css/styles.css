@@ -1,5 +1,7 @@
-body{
+.container-fluid{
     margin-left: 0%;
+    margin-right: 0%;
+    
 }.content-wrapper{
     width: 100%;
 }
@@ -27,7 +29,7 @@ body{
     margin-top: 10%;
     margin-bottom: 6%;
 }
-.about{
+#about{
     color: black;
     text-align: center;
     margin-bottom: 5%;
@@ -62,10 +64,6 @@ body{
     margin-left: 30px;
     box-align: center;
 }
-.row{
-    margin-right: 1px;
-    margin-left: 1px;
-}
 h2{
     font-size: 15px;
 }
@@ -99,14 +97,10 @@ h3{
     text-align: center;
 }
 #portfolios1-4{
-    margin-left: 50px;
-    margin-bottom: 30px;
-    margin-right: 50px;
+     margin-bottom: 30px;
 }
 #portfolios5-8{
-    margin-left: 50px;
-    margin-bottom: 60px;
-    margin-right: 50px;
+        margin-bottom: 60px;
 }
 #work4:hover,#work3:hover,#work2:hover,#work1:hover,#work5:hover,#work6:hover,#work7:hover,#work8:hover{
     background-image: none;
@@ -138,10 +132,6 @@ h3{
     margin-left: 200px;
     margin-bottom: 30px;
     border-color: white;
-    margin-right: 200px;
-}
-.btn .btn-light .mt-4{
-   margin-right: 80%;
 }
 #social{
     margin-left: 280px;
